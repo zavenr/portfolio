@@ -21,3 +21,92 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+# maybe overkill but meh
+# Node / Next.js
+web/node_modules/
+web/.next/
+web/out/
+web/.turbo/
+web/dist/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+lerna-debug.log*
+
+# Local env files
+.env
+.env.*.local
+web/.env
+web/.env.*.local
+api/.env
+api/.env.*.local
+
+# Python
+api/__pycache__/
+api/.venv/
+api/venv/
+api/env/
+*.pyc
+*.pyo
+*.pyd
+*.pytest_cache/
+*.mypy_cache/
+api/.pytest_cache/
+api/.mypy_cache/
+api/dist/
+api/build/
+api/*.egg-info/
+
+# IDE/editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS specific
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.backup
+*~
+
+# Logs
+logs/
+*.log
+
+# Coverage reports
+coverage/
+*.coverage
+.nyc_output/
+
+# Runtime data
+pids/
+*.pid
+*.seed
+*.pid.lock
+
+# Optional npm cache directory
+.npm
+
+# Optional REPL history
+.node_repl_history
+
+# Output of 'npm pack'
+*.tgz
+
+# Yarn Integrity file
+.yarn-integrity
