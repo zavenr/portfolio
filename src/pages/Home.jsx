@@ -46,11 +46,60 @@ export default function Home() {
       <section id="projects" className="projects">
         <h3>My Projects</h3>
         <div className="project-list">
+          {/*P1*/}
+          <div className="project">
+            <h4>Space Debris Risk Model</h4>
+            <p>Simulate and visualize space debris close-approach events</p>
+            <div className="project-links">
+              <a
+                href="https://github.com/zavenr/space-debris-risk-model"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                GitHub
+              </a>
+              <a
+                href="https://zavenr.github.io/space-debris-risk-model"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Live Site
+              </a>
+            </div>
+          </div>
+
+          {/*P2*/}
+          <div className="project">
+            <h4>Calorie Tracker</h4>
+            <p>
+              A full-stack fitness and nutrition app that lets users log food,
+              monitor daily calories, and track macronutrient intake.
+            </p>
+            <div className="project-links">
+              <a
+                href="https://github.com/zavenr/calorie-tracker"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                GitHub
+              </a>
+              <a
+                href="https://zavenr.github.io/calorie-tracker"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Live Site
+              </a>
+            </div>
+          </div>
+
+          {/*P3*/}
           <div className="project">
             <h4>Portfolio Website</h4>
             <p>
               This responsive portfolio built with React to showcase my work.
             </p>
+
             <div className="project-links">
               <a
                 href="https://github.com/zavenr/portfolio"
@@ -68,7 +117,7 @@ export default function Home() {
               </a>
             </div>
           </div>
-
+          {/*P3*/}
           <div className="project">
             <h4>Coming Soon...</h4>
             <p>
