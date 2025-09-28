@@ -117,7 +117,8 @@ export default function Home() {
               </a>
             </div>
           </div>
-          {/*P3*/}
+
+          {/*P4*/}
           <div className="project">
             <h4>Coming Soon...</h4>
             <p>
@@ -139,8 +140,12 @@ export default function Home() {
           >
             GitHub
           </a>
-          <a href="mailto:your.email@example.com">Email</a>
-          <a href="#" target="_blank" rel="noopener noreferrer">
+          <a href="mailto:zavenran@gmail.com">Email</a>
+          <a
+            href="https://www.linkedin.com/in/zavenranum"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             LinkedIn
           </a>
         </div>
@@ -148,7 +153,7 @@ export default function Home() {
 
       {/* Footer */}
       <footer>
-        <p>&copy; 2024 Zaven R. Thanks for visiting!</p>
+        <p>&copy; 2025 Zaven R. Thanks for visiting!</p>
       </footer>
     </div>
   );
