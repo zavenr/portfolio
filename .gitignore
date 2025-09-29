@@ -22,6 +22,7 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
+
 # maybe overkill but meh
 # Node / Next.js
 web/node_modules/

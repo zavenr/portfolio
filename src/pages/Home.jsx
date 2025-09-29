@@ -154,6 +154,13 @@ export default function Home() {
           >
             LinkedIn
           </a>
+          <a
+            href={`${process.env.PUBLIC_URL}/zaven-ranum-resume.pdf`}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Resume
+          </a>
         </div>
       </section>
 
