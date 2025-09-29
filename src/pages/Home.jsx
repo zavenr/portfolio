@@ -18,15 +18,21 @@ export default function Home() {
       <section className="intro">
         <h2>Hi, I'm Zaven</h2>
         <p>Computer Science Student</p>
-        <p>I love building things with code and learning new technologies.</p>
       </section>
 
       {/* About */}
       <section id="about" className="about">
         <h3>About Me</h3>
         <p>
-          I'm a Computer Science student passionate about software development.
-          I enjoy solving problems and creating useful applications.
+          I’m a Computer Science student at Metropolitan State University of
+          Denver, graduating in May 2027. I’m passionate about computer science
+          and the ways technology can be used to build tools that make a real
+          impact. My background as a CNC Programmer/Machinist at Ouroboros Space
+          and Defense strengthened my problem solving skills, attention to
+          detail, and ability to work with complex systems skills I now apply to
+          skills I now apply to building projects, learning new technologies and
+          more. I’m eager to apply my skills, contribute to impactful projects,
+          and continue growing in professional, real world settings
         </p>
 
         <div className="skills">
@@ -63,7 +69,7 @@ export default function Home() {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                Live Site
+                Live Site, coming soon
               </a>
             </div>
           </div>
@@ -88,7 +94,7 @@ export default function Home() {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                Live Site
+                Live Site, coming soon
               </a>
             </div>
           </div>
