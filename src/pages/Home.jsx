@@ -16,8 +16,31 @@ export default function Home() {
 
       {/* Main intro section */}
       <section className="intro">
-        <h2>Hi, I'm Zaven</h2>
-        <p>Computer Science Student</p>
+        <div className="intro-content">
+          <h1 className="intro-greeting">Hi, I'm Zaven</h1>
+          <h2 className="intro-title">
+            Computer Science Student & Technology Enthusiast
+          </h2>
+          <p className="intro-description">
+            Building innovative solutions through technology, with interests
+            spanning software development, cloud infrastructure, and IT systems.
+            Bringing a unique perspective from precision manufacturing to tech
+            problem-solving.
+          </p>
+          <div className="intro-highlights">
+            <span className="highlight">🎓 Graduating May 2027</span>
+            <span className="highlight">☁️ Cloud & Development</span>
+            <span className="highlight">🔧 Systems Background</span>
+          </div>
+          <div className="intro-actions">
+            <a href="#projects" className="cta-button primary">
+              View My Work
+            </a>
+            <a href="#contact" className="cta-button secondary">
+              Get In Touch
+            </a>
+          </div>
+        </div>
       </section>
 
       {/* About */}
@@ -36,14 +59,50 @@ export default function Home() {
         </p>
 
         <div className="skills">
-          <h4>Skills I'm Learning</h4>
-          <div className="skill-tags">
-            <span>JavaScript</span>
-            <span>React</span>
-            <span>HTML/CSS</span>
-            <span>Python</span>
-            <span>Java</span>
-            <span>Git</span>
+          <h4>Technical Skills</h4>
+
+          <div className="skill-category">
+            <h5>Programming Languages</h5>
+            <div className="skill-tags">
+              <span className="skill-tag programming">Python</span>
+              <span className="skill-tag programming">Java</span>
+              <span className="skill-tag programming">JavaScript</span>
+              <span className="skill-tag programming">HTML/CSS</span>
+              <span className="skill-tag programming">SQL</span>
+            </div>
+          </div>
+
+          <div className="skill-category">
+            <h5>Frameworks/Libraries</h5>
+            <div className="skill-tags">
+              <span className="skill-tag frameworks">React</span>
+              <span className="skill-tag frameworks">Tailwind CSS</span>
+              <span className="skill-tag frameworks">Express.js</span>
+              <span className="skill-tag frameworks">Next.js</span>
+            </div>
+          </div>
+
+          <div className="skill-category">
+            <h5>Tools & Technologies</h5>
+            <div className="skill-tags">
+              <span className="skill-tag tools">AWS</span>
+              <span className="skill-tag tools">PostgresSQL</span>
+              <span className="skill-tag tools">Git & GitHub</span>
+              <span className="skill-tag tools">REST API's</span>
+              <span className="skill-tag tools">Node.js</span>
+              <span className="skill-tag tools">CNC Programming</span>
+            </div>
+          </div>
+
+          <div className="skill-category">
+            <h5>Currently Learning</h5>
+            <div className="skill-tags">
+              <span className="skill-tag learning">Full-Stack Development</span>
+              <span className="skill-tag learning">Database Design</span>
+              <span className="skill-tag learning">API Development</span>
+              <span className="skill-tag learning">Linux/Unix</span>
+              <span className="skill-tag learning">Machine Learning</span>
+            </div>
           </div>
         </div>
       </section>
